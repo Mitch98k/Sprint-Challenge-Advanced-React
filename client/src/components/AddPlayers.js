@@ -17,6 +17,7 @@ export const AddPlayers = () => {
             <input
             type = 'text'
             name = 'name'
+            placeholder = 'name'
             value = {value.name}
             onChange = {handleChange}
             />
